@@ -1,1 +1,2 @@
 # Topic-Modeling
+Clustering texts into a number of topics using a LDA model. Text data was preprocessed with the help of regular expression(re) and gensim libraries. To find the optimum number of topics for the corpus, models were evaluated based on coherence values. Furthermore, multiple visualizations where created to understand the different topics inside in the corpus such as Word Cloud of Top N keywords in each topic, Word Count and importance of each keyword, Sentence chart colored by topic, t-SNE clustering chart and also a dashboard using pyLDAvis
